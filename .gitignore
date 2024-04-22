@@ -1,0 +1,54 @@
+# build output
+dist/
+.output/
+*.zip
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# General
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+*.log
+*.cache
+dist/
+build/
+.temp/
+out/
+coverage/
+
+# Next.js specific
+.next/
+.next/static/
+out/
+
+# Astro specific
+astro.config.mjs
+public/
+
+# Tailwind CSS (if any specific caching or output files you want to ignore)
+tailwindcss.out.css
+
+# Other common directories and files to ignore
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
